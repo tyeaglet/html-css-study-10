@@ -1,0 +1,86 @@
+
+
+
+.header-chaey {
+    font-family: "song Myung", serif;
+    font-size: 200px;
+    font-weight: 900;
+    color: lightskyblue;
+    margin-top: 100px;
+    transition: font-size 0.3s ease;
+    text-overflow: clip;
+}
+
+.header-chaey:hover {
+    color: darkblue;
+    transform: scale(1.2);
+}
+
+.main-chaey {
+    height: 968px;
+    background-image: url('images/wave2.png');
+    background-size: 125%;
+    background-position: 46% 4%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.headline {
+    font-family: "Song Myung", serif;
+    font-size: 120px;
+    font-weight: 900;
+    font-style: normal;
+    line-height: 166px;
+    color: darkgrey;
+    text-align: center;
+    position: relative;
+    margin-top: 100px;
+    padding-bottom: 40px;
+    transition: font-size 0.3s ease;
+  }
+ 
+.custom-image {
+    width: 250px;
+    height: 250px;
+    border-radius: 15px; 
+    margin-bottom: 10px; 
+}
+
+.images-row {
+    display: flex;
+    justify-content: center; /* 가운데 정렬 */
+    flex-wrap: wrap; /* 화면 크기에 따라 요소들이 다음 줄로 넘어갈 수 있도록 함 */
+     transition: transform 0.3s ease;
+}
+
+.image-container {
+    margin: 10px; /* 이미지 사이의 간격 */
+    text-align: center; /* 텍스트를 이미지 아래 가운데 정렬 */
+    transition: transform 0.3s ease;
+}
+
+.image-container:hover {
+    transform: scale(1.1);
+}
+
+.ptag {
+    font-family:"song myung";
+    margin-top: 10px;
+    color: darkgray;
+    font-size: 30px;
+}
+
+.주석 {
+    font-family:"song myung";
+    margin-top: 50px;
+    color: darkgray;
+    font-size: 30px;
+    text-align: center;
+    flex-wrap: wrap;
+    transition: transform 0.3s ease;
+}
+
+.주석:hover {
+    transform: scale(1.1);
+}
