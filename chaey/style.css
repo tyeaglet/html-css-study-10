@@ -3,12 +3,13 @@
 
 .header-chaey {
     font-family: "song Myung", serif;
-    font-size: 200px;
-    font-weight: 900;
+    font-size: 170px;
+    font-weight: 700;
     color: lightskyblue;
     margin-top: 100px;
     transition: font-size 0.3s ease;
     text-overflow: clip;
+    margin-left: 50px;
 }
 
 .header-chaey:hover {
@@ -17,6 +18,7 @@
 }
 
 .main-chaey {
+    /* 기존 스타일 유지 */
     height: 968px;
     background-image: url('images/wave2.png');
     background-size: 125%;
@@ -24,12 +26,23 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+    /* ... */
+}
+
+/* 화면 크기가 768픽셀 이하일 때 적용될 스타일 */
+@media (max-width: 768px) {
+    .main-chaey {
+        background-image: url('images/wave2.png');
+        background-size: cover; /* 또는 다른 적절한 값 */
+        background-position: center; /* 배경 이미지 중앙에 위치 */
+        /* 모바일 환경에 맞는 기타 스타일 변경사항 */
+    }
 }
 
 .headline {
     font-family: "Song Myung", serif;
-    font-size: 120px;
-    font-weight: 900;
+    font-size: 80px;
+    font-weight: 700;
     font-style: normal;
     line-height: 166px;
     color: darkgrey;
@@ -83,4 +96,10 @@
 
 .주석:hover {
     transform: scale(1.1);
+}
+
+.교통편 {
+    margin-bottom: 80px;
+    margin-left: 30px;
+    margin-top: 80px;
 }
