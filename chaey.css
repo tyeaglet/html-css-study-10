@@ -1,0 +1,125 @@
+
+.main-chaey {
+    /* 기존 스타일 유지 */
+    height: 968px;
+    background-image: url('images/wave2.png');
+    background-size: 125%;
+    background-position: 46% 4%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* ... */
+}
+
+/* 화면 크기가 768픽셀 이하일 때 적용될 스타일 */
+@media (max-width: 768px) {
+    .main-chaey {
+        background-image: url('images/wave2.png');
+        background-size: cover; /* 또는 다른 적절한 값 */
+        background-position: center; /* 배경 이미지 중앙에 위치 */
+        /* 모바일 환경에 맞는 기타 스타일 변경사항 */
+    }
+}
+
+.headline {
+    font-family: sans-serif;
+    font-size: 80px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 166px;
+    color: darkgrey;
+    text-align: center;
+    position: relative;
+    margin-top: 100px;
+    transition: font-size 0.3s ease;
+  }
+
+  .교통container {
+    display: flex; /* flexbox 레이아웃 적용 */
+    justify-content: center; /* 가로 방향 중앙 정렬 */
+    align-items: center; /* 세로 방향 중앙 정렬 */
+    gap: 20px; /* 요소들 사이 간격 20px */
+}
+
+
+  .custom-image-size {
+    width: 400px;
+    height: auto; /* 높이를 자동으로 설정하여 비율 유지 */
+}
+
+.custom-image {
+    width: 250px;
+    height: 250px;
+    border-radius: 15px; 
+    margin-bottom: 10px; 
+}
+
+.images-row {
+    display: flex;
+    justify-content: center; /* 가운데 정렬 */
+    flex-wrap: wrap; /* 화면 크기에 따라 요소들이 다음 줄로 넘어갈 수 있도록 함 */
+     transition: transform 0.3s ease;
+}
+
+.image-container {
+    margin: 10px; /* 이미지 사이의 간격 */
+    text-align: center; /* 텍스트를 이미지 아래 가운데 정렬 */
+    transition: transform 0.3s ease;
+}
+
+.image-container:hover {
+    transform: scale(1.1);
+}
+
+.ptag {
+    font-family:sans-serif;
+    margin-top: 10px;
+    color: darkgray;
+    font-size: 20px;
+}
+
+
+.교통편 {
+    margin-bottom: 80px;
+    margin-left: 30px;
+    margin-top: 80px;
+}
+
+
+/* 부모 요소의 크기도 조정 */
+.container {
+    width: 60%; /* 또는 필요한 크기로 조정 */
+    margin: auto; /* 가운데 정렬 */
+}
+
+/* 부트스트랩 클래스와의 충돌 방지 */
+.carousel-container {
+    width: 50% !important; /* 화면 너비의 50%를 차지 */
+    height: auto !important; /* 높이는 자동으로 조정 */
+    margin: auto !important; /* 가운데 정렬 */
+    display: block !important; /* 블록 레벨 요소로 설정 */
+}
+
+.carousel-container .carousel-item {
+    width: 100% !important; /* 슬라이드 항목의 너비를 컨테이너에 맞춤 */
+    height: auto !important; /* 높이는 자동으로 조정 */
+}
+
+.carousel-container .carousel-item img {
+    width: 100% !important; /* 이미지의 너비를 슬라이드 항목에 맞춤 */
+    height: auto !important; /* 이미지의 높이를 자동으로 조정 */
+}
+
+
+/* 미디어 쿼리 사용 */
+@media (max-width: 768px) {
+    .carousel-container {
+        width: 100%; /* 모바일 장치에서는 너비를 100%로 설정 */
+    }
+}
+
+.교통종류 {
+    text-align: center;
+    color: darkblue;
+    margin-bottom: 50px;
+}
