@@ -16,127 +16,112 @@
 
 <body>
 
-<header_chaey class="header-chaey">
-   <div>Busan</div>
-   <div>Welcomes You!</div>
-</header_chaey>
-   
+    <div class="headline">
+        부산 교통
+    </div>
+    <div class="교통container">
+        <h4 class="교통종류">버스</h4>
+        <h4 class="교통종류">지하철</h4>
+        <h4 class="교통종류">관광지 순환 셔틀</h4>
+    </div>
 
-<div class="교통편">
-    <nav class="nav nav-pills flex-column flex-sm-row">
-        <a class="flex-sm-fill text-sm-center nav-link active" aria-current="page" href="#">교통편</a>
-        <a class="flex-sm-fill text-sm-center nav-link" href="#">버스</a>
-        <a class="flex-sm-fill text-sm-center nav-link" href="#">지하철</a>
-        <a class="flex-sm-fill text-sm-center nav-link disabled" aria-disabled="true">관광지순환셔틀</a>
-      </nav>
+    </div>
+
+<div class="container">
+    <div id="carouselExampleCaptions" class="carousel slide container carousel-container">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://mobile.busan.com/nas/wcms/wcms_data/photos/2023/08/20/2023082017370573353_l.jpg" class="d-block w-100 custom-image-size" alt="버스">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>버스</h5>
+              <p>다양한 노선의 버스를 통해 부산을 밟아보세요</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://t1.daumcdn.net/thumb/R720x0/?fname=http://t1.daumcdn.net/brunch/service/user/4UfN/image/SZNHufcHDOgvDMk35V0-O3mkP-c.PNG" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>지하철</h5>
+              <p>부산의 메인스팟은 모두 지하철로 갈 수 있습니다.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://mobile.busan.com/nas/wcms/wcms_data/photos/2020/10/19/2020101919251697034_l.jpg" class="card-img-top custom-image-size" alt="...">
+            <div class="card-body"> 
+            <div class="carousel-caption d-none d-md-block">
+              <h5>관광지 순환 셔틀</h5>
+              <p>다양한 노선의 버스를 통해 부산을 밟아보세요.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    <div>
+</div>
 </div>
 
 <div>
-    <div class="container">
-        <div class="row">
-          <div class="col-md-4">
-            <!-- 첫 번째 카드 -->
-            <div class="card" style="width: 18rem;">
-                <div class="card" style="width: 18rem;">
-                    <img src="https://mobile.busan.com/nas/wcms/wcms_data/photos/2023/08/20/2023082017370573353_l.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">버스</h5>
-                      <p class="card-text">다양한 노선의 버스를 통해 부산을 밟아보세요.</p>
-                      <a href="#" class="btn btn-primary">부산역 - 해운대</a>
-                    </div>
-                  </div>
+    <div>
+        <main class="main-chaey">
+            <div class="headline">
+                부산 먹거리
             </div>
-          </div>
-          <div class="col-md-4">
-            <!-- 두 번째 카드 -->
-            <div class="card" style="width: 18rem;">
-                <div class="card" style="width: 18rem;">
-                    <img src="https://lh3.googleusercontent.com/proxy/kH7agphn0y1AhpOPcP1aQ7CUX8Ho6IydIQxomnOc7QLZJSFha3BUMPRnehJ4FGnULedGevIsJN-wwCB4bEbiBrgV89JakKqjFPc2hHEg2UmBml2BdJGy1qGe" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">지하철</h5>
-                      <p class="card-text">부산의 메인스팟은 모두 지하철로 갈 수 있습니다.</p>
-                      <a href="#" class="btn btn-primary">여러 노선 선택지</a>
-                    </div>
-                  </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <!-- 세 번째 카드 -->
-            <div class="card" style="width: 18rem;">
-                <div class="card" style="width: 18rem;">
-                    <img src="https://mobile.busan.com/nas/wcms/wcms_data/photos/2020/10/19/2020101919251697034_l.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">관광지순환셔틀</h5>
-                      <p class="card-text">다양한 노선의 버스를 통해 부산을 밟아보세요.</p>
-                      <a href="#" class="btn btn-primary">무료셔틀운행</a>
-                    </div>
-                  </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-</div>
-
-    <main class="main-chaey">
-        <div class="headline">
-            부산 먹거리
-        </div>
-</div>
-
-
-<div class="images-row">
-    <div class="image-container">
-        <a href="https://www.example.com">
-            <img src="https://d12zq4w4guyljn.cloudfront.net/750_750_20221229125603_photo1_hyY8uMgf9TaL.jpg" alt="신선한부산회" class="custom-image">
-        </a>
-        <p class="ptag">신선한부산회</p>
-    </div>
-
-    <div class="image-container">
-        <a href="https://www.example.com">
-            <img src="https://i.ytimg.com/vi/mJKVKTLN1CA/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDW3urRlM3KR8u34Z0x3jZRKeTg6w" alt="신선한부산회" class="custom-image">
-        </a>
-        <p class="ptag">맛있는 어묵</p>
-    </div>
-
-    <div class="image-container">
-        <a href="https://www.example.com">
-            <img src="https://gimhaemall.kr/thumb/d593060f9bf1cef1b7c8c1e58464c59a/800_800_6f146781c02c0462629148479637.jpg" alt="신선한부산회" class="custom-image">
-        </a>
-        <p class="ptag">엄청난 돼지국밥</p>
-    </div>
-
-    <div class="image-container">
-        <a href="https://www.example.com">
-            <img src="https://contents.lotteon.com/itemimage/_v164104/LO/15/29/44/19/08/_1/52/94/41/90/9/LO1529441908_1529441909_1.jpg/dims/resizef/720X720" alt="신선한부산회" class="custom-image">
-        </a>
-        <p class="ptag">시원한 밀면</p>
-    </div>
+            <div class="images-row">
+                <div class="image-container">
+                    <a href="https://www.example.com">
+                        <img src="https://d12zq4w4guyljn.cloudfront.net/750_750_20221229125603_photo1_hyY8uMgf9TaL.jpg" alt="신선한부산회" class="custom-image">
+                    </a>
+                    <p class="ptag">부산 회</p>
+                </div>
+            
+                <div class="image-container">
+                    <a href="https://www.example.com">
+                        <img src="https://i.ytimg.com/vi/mJKVKTLN1CA/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDW3urRlM3KR8u34Z0x3jZRKeTg6w" alt="신선한부산회" class="custom-image">
+                    </a>
+                    <p class="ptag">어묵</p>
+                </div>
+            
+                <div class="image-container">
+                    <a href="https://www.example.com">
+                        <img src="https://gimhaemall.kr/thumb/d593060f9bf1cef1b7c8c1e58464c59a/800_800_6f146781c02c0462629148479637.jpg" alt="신선한부산회" class="custom-image">
+                    </a>
+                    <p class="ptag">돼지국밥</p>
+                </div>
+            
+                <div class="image-container">
+                    <a href="https://www.example.com">
+                        <img src="https://contents.lotteon.com/itemimage/_v164104/LO/15/29/44/19/08/_1/52/94/41/90/9/LO1529441908_1529441909_1.jpg/dims/resizef/720X720" alt="신선한부산회" class="custom-image">
+                    </a>
+                    <p class="ptag">밀면</p>
+                </div>
+                
+                <div class="image-container">
+                    <a href="https://www.example.com">
+                        <img src="https://mblogthumb-phinf.pstatic.net/MjAyMjA5MTJfMjg1/MDAxNjYyOTQ3MzcxOTcx.gU6w-Co3SpqrZ7ytN2gSrRYFpFX3Tk5JNTuIwpBk3ikg.VDME8qO8popJoEDF3A0zmo0KabES0wqATTPW45S0a-gg.JPEG.yyuu9393/%EB%B6%80%EC%82%B0_%EC%9D%B4%EA%B0%80%EB%84%A4%EB%96%A1%EB%B3%B6%EC%9D%B4_%EB%B3%B8%EC%A0%900-0.jpeg?type=w800" alt="신선한부산회" class="custom-image">
+                    </a>
+                    <p class="ptag">떡볶이</p>
+                </div>
     
-    <div class="주석"> 
-        <div>대선소주</div>
-        <div>포장마차거리 음식들</div> 
-        <div>오션뷰 이자카야들</div>
-        <div>씨앗호떡, 시장떡볶이, 납작만두 시장먹거리들</div>
+                <div class="image-container">
+                    <a href="https://www.example.com">
+                        <img src="https://minio.nculture.org/amsweb-opt/multimedia_assets/9/85704/92738/c/%EB%B6%80%EC%82%B0-%EC%94%A8%EC%95%97%ED%98%B8%EB%96%A1-%2816%29_rev-medium-size.jpg" alt="신선한부산회" class="custom-image">
+                    </a>
+                    <p class="ptag">씨앗호떡</p>
+                </div>
     
-    </div>
-    
-
-   
+            </div> 
 </div>
-
-
-   
-</main>
-
-
-
-<Footer_chaey>
-
-
-</Footer_chaey>
-
 
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
