@@ -1,170 +1,139 @@
-.footer {padding: 100px 0; background: rgba(0,0,0,0.1);}
-
-
-.areaList > li > a:before {content:""; display:block; margin:0 auto 0.5em; width:60px; height:60px; background:url(../../assets/img/main/ico_area.png?v=202112081638) no-repeat; transform:scaleY(0.9) scaleX(0.9);}
-.areaList > li > a:hover:before,
-.areaList > li > a:focus:before {animation: pong2 0.5s ease-out;}
-.areaList > li > a.type1:before {background-position: 0 0;}
-.areaList > li > a.type2:before {background-position: -60px 0;}
-.areaList > li > a.type3:before {background-position: -120px 0;}
-.areaList > li > a.type4:before {background-position: -180px 0;}
-.areaList > li > a.type5:before {background-position: -240px 0;}
-.areaList > li > a.type6:before {background-position: -300px 0;}
-.areaList > li > a.type7:before {background-position: -360px 0;}
-.areaList > li > a.type8:before {background-position: -420px 0;}
-.areaList > li > a.type9:before {background-position: -480px 0;}
-.areaList > li > a.type10:before {background-position: -540px 0;}
-.areaList > li > a.type11:before {background-position: -600px 0;}
-.areaList > li > a.type12:before {background-position: -660px 0;}
-.areaList > li > a.type13:before {background-position: -720px 0;}
-.areaList > li > a.type14:before {background-position: -780px 0;}
-.areaList > li > a.type15:before {background-position: -840px 0;}
-.areaList > li > a.type16:before {background-position: -900px 0;}
-
-#footer {position: relative; background:#fff; padding:0 0 100px;}
-#footer .footAttach {border-top:1px solid #ddd; padding: 1em; word-break: keep-all;}
-#footer .footAttach a {text-decoration:underline; text-underline-position:under;}
-#footer .familySite:after {content:""; display:block; clear:both;}
-#footer .familySite .cell select {vertical-align: top; height:100%; border:0; background:transparent url(../../assets/img/common/ico_select_arrow.png) no-repeat center right 0.5em; font-family:inherit;}
-#footer .familySite .cell button {height:100%; padding:0 0.5em; position:relative;}
-#footer .familySite .cell button:before {content:""; display:block; width:1px; height:1em; background:#ccc; position:absolute; top:calc(50% - 0.5em); left:0;}
-#footer .footerSns {display: flex;justify-content: center;}
-#footer .footerSns:after {content:""; display:block; clear:both;}
-#footer .footerSns > a {display:block;position: relative;width:2.5em;height:2.5em;text-indent: -9999px;}
-#footer .footerSns > a:before {content:""; display:block; width:100%; height:100%; position: absolute; top:50%; left:50%; transform:translate(-50%, -50%); background:url(../../assets/img/common/ico_sns.png?v=202110221314) no-repeat; background-size:cover;}
-#footer .footerSns .mail:before { background-position: 0 center;}
-#footer .footerSns .twitter:before { background-position: -2.5em center;}
-#footer .footerSns .facebook:before { background-position: -5em center;}
-#footer .footerSns .naverblog:before { background-position: -7.5em center;}
-#footer .footerSns .kakaostory:before { background-position: -10em center;}
-#footer .footerSns .youtube:before { background-position: -12.5em center;}
-#footer .footerSns .badatv:before { background-position: -15em center;}
-#footer .footerSns .insta:before { background-position: -17.5em center;}
-#footer .footerSns .befm {width:5em;}
-#footer .footerSns .befm:before { background-position: -20em center;}
-#footer .footerBody {margin-top:3em;}
-#footer .footerMenu li {position: relative; line-height:1; margin-bottom:1em;}
-#footer .footerMenu li:before {content:""; position: absolute; top:50%; left:-10px; width: 1px;height: 10px;background: #ccc;transform: translateY(-50%);}
-#footer .footerMenu li:first-child:before {content : none;}
-#footer .footerMenu span {color:#0f6ca1;}
-#footer .footMark > a {margin-right:2em; display:inline-block; vertical-align:center;}
-#footer .footMark > a:last-child {margin-right:0;}
-#footer .footMark img {vertical-align:top;}
-#footer .footMinwon {margin-bottom:1em;}
-#footer .footMinwon > a {display:block;}
-#footer .footMinwon .tit {font-size:1.5em;}
-#footer .footTxt > div {margin-bottom:1em;}
-#footer .footTxt > div > a {color:#0f6ca1; border-bottom:1px solid #0f6ca1; margin-right:1.5em;}
-#footer .footTxt > div > a:last-child {margin-right:0;}
-
-#footer .footerBody {margin-top:2em;}
-#footer .footerBody .inner > article {width:100% !important; text-align: center; padding:0 !important; border:0 !important;}
-#footer .footerTop {position: relative; z-index: 10;}
-#footer .familySite {display:block;}
-#footer .familySite .cell {width:100%;margin-top:-1px;height:3em;border: 1px solid #ddd;}
-#footer .familySite .cell a {display: block;}
-#footer .familySite .cell > ul > li {position: relative;}
-#footer .familySite .cell > ul > li > a {padding: 0 20px; line-height: 44px; text-align: left;}
-#footer .familySite .cell > ul > li > a:after {content: ""; position: absolute; top:13px; right: 20px; width: 20px; height: 20px; background: url(../img/main/ico_arrow_down_b.png) no-repeat center; transition: 0.4s;}
-#footer .familySite .cell > ul > li > a.open:after {transform: rotate(180deg);}
-
-#footer .familySite .cell > ul ul {display: none; position: absolute; bottom:45px; left:-1px; width:calc(100% + 2px); height: 200px; padding: 10px 20px;background: #f1f1f1;text-align: left;line-height: 1.4; overflow-y: auto}
-#footer .footerAddress {margin-bottom:1em;}
-#footer .footerMenu {text-align: center;}
-#footer .footerMenu ul {display:inline-block;}
-#footer .footerMenu li {display:inline-block; margin-right:1em;}
-#footer .footerMenu li:last-child {margin-right:0;}
-
-#footer .footMinwon {display: flex;flex-wrap: wrap;margin: 20px 0;justify-content: center;align-items: center;}
-#footer .footMinwon .callTxt b {display: block; font-weight: 600;}
-#footer .footMinwon .callNum {margin-left: 10px; font-size: 2.5em;}
-#footer .footMinwon .callNum a {text-decoration: none; color: #222;}
-#footer .footMinwon .txt {flex: 0 0 100%; margin-top: 5px;}
-
-#scrollTop {position:fixed;bottom: 2em;right: 1.2em;font-family: "GmarketSans", sans-serif;z-index:11; transition: 0.4s; opacity: 0;}
-#scrollTop.show {opacity: 1;}
-#scrollTop > span {display: inline-block;width: 50px;height: 50px; border: 1px solid #f1f1f1; border-radius: 50%;background: #fff;font-size: 0.85em;color: #222;line-height: 50px;text-align: center;}
-#scrollTop:before {content:""; display:block; width:11px; height:37px; background:url(../../assets/img/common/ico_scrolltop.png) no-repeat center top; margin:0 auto 0.5em; transition: all 0.3s ease-in-out;}
-#scrollTop:hover:before,
-#scrollTop:focus:before {height:57px;}
-
-
-
-#footer .footerBody .inner:after {content: ""; display: block; clear: both;}
-
-@media all and (min-width:769px){
-	#footer .footerTop {border-top: 1px solid #ddd; border-bottom: 1px solid #ddd;}
-	#footer .footerTop .inner {display:flex;}
-	#footer .familySite {display: flex;}
-	#footer .familySite .cell {width: 230px; margin-top: 0; margin-right: -1px; border-top: none; border-bottom: none;}
-	#footer .familySite .cell:last-child {margin-right:0;}
+a {
+  text-decoration: none;
+  color: #222;
 }
 
-@media all and (min-width:1201px) { 
-	
-	#navBack {position:fixed; top:196px; left:0; right:0; bottom:0; background:rgba(0,0,0,.5); display:none;}
-	
-	#footer .footerTop {border-top: 1px solid #ccc; border-bottom: 1px solid #ccc;}
-	#footer .footerTop .inner {justify-content:space-between;}
-	#footer .footerTop .inner:after {display:none;}
-	#footer .footerTop .inner > div {display:flex;}
-	
-	#footer .footerBody .inner {display:flex;}
-	#footer .footerBody .inner article {flex: 0 0 70%; max-width: 70%; text-align: left;}
-	#footer .footerBody .inner article:last-child {flex: 0 0 30%; max-width: 30%;}
+#footer {
+  position: relative;
+  background: #fff;
+  padding: 0 0 100px;
+}
 
-	#footer .footerMenu {text-align: left;}
-	#footer .footerAddress {display: flex; flex-wrap: wrap; margin-top: 50px; font-size:0.9em;}
-	/* #footer .footerAddress .footerLogo {margin-right: 20px;} */
-	/* 2023-05-15 로고 크기 */
-	#footer .footerAddress .footerLogo {
-	margin-right: 20px;
-	width:110px;
-	height:24px;
-	}
-	#footer .footerAddress .footerLogo > a{
-	display:block;
-	width:100%;
-	height:100%;
-	}
-	#footer .footerAddress .footerLogo > a > img{
-	display:block;
-	width:100%;
-	height:100%;
-	}
-	#footer .footerAddress .copyright {flex: 0 0 100%; max-width: 100%;}
+.footerTop {
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  position: relative;
+  z-index: 10;
+}
 
-    #footer .footerSns {justify-content: flex-end;}
-    #footer .footMinwon {text-align: right;justify-content: flex-end;align-items: flex-end;}
-	#footer .footMark {text-align:right;}
-	#footer .footMark img {vertical-align: middle;}
+.footerTop .inner {
+  display: flex;
+  flex-flow: row wrap;
+  text-align: center;
 }
-@media all and (min-width:1280px){
-	#footer .familySite .cell {width: 300px;}
-	#footer .familySite .cell > ul ul {bottom: 50px;}
-	#footer .familySite .cell > ul > li > a {line-height:51px;}
-	#footer .familySite .cell > ul > li > a:after {top: 14px;}
-	
+
+.familySite {
+  display: flex;
 }
-@media all and (min-width:1400px){
-	#footer .familySite .cell {width: 320px;}
-	#footer .familySite .cell > ul ul {bottom: 55px;}
-	#footer .familySite .cell > ul > li > a {line-height:54px;}
-	#footer .familySite .cell > ul > li > a:after {top: 16px;}
+
+.familySite .cell {
+  width: 230px;
+  margin-top: 0;
+  margin-right: -1px;
+  border-top: none;
+  border-bottom: none;
 }
-@media all and (min-width:1620px){
-	#footer .inner {width: 1600px;}
+
+.cell > ul ul {
+  position: absolute;
+  bottom: 45px;
+  left: -1px;
+  width: calc(100% + 2px);
+  height: 200px;
+  padding: 10px 20px;
+  background: #f1f1f1;
+  text-align: left;
+  line-height: 1.4;
+  overflow-y: auto;
 }
-@media all and (max-width:1200px) {
-	
-	#footer .footerTop .inner {flex-flow:row wrap; text-align: center;}
-	#footer .footerBody .inner {font-size: 0.85em;}
-	#footer .footerBody .inner > article:first-child {width:60%; padding-right:2em;}
-	
-	#footer .footerLogo {margin-bottom:2em;}
-	#footer .footerLogo img{max-width:110px;}
-	#footer .familySite .cell select {width:calc(100% - 5.7em);}
-	#footer .familySite .cell button {width:5.3em;}
-	#footer .footerSns {display:flex; justify-content:center; margin:1em 0 0; width:100%;}
-	#footer .footerMenu {margin-bottom:2em;}
+
+.cell > ul > li > a {
+  padding: 0 20px;
+  line-height: 44px;
+  text-align: left;
+}
+
+.cell a {
+  display: block;
+}
+
+.footerBody {
+  width: 100% !important;
+  text-align: center;
+  padding: 0 !important;
+  border: 0 !important;
+}
+
+.footerBody .inner > article {
+  width: 100% !important;
+  text-align: center;
+  padding: 0 !important;
+  border: 0 !important;
+}
+
+.footerMenu {
+  text-align: center;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  box-sizing: border-box;
+}
+
+.footerMenu ul {
+  display: inline-block;
+}
+
+.footerMenu li {
+  position: relative;
+  line-height: 1;
+  margin-bottom: 1em;
+  display: inline-block;
+  margin-right: 1em;
+}
+
+.footerAddress {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  box-sizing: border-box;
+  margin-bottom: 1em;
+}
+
+.footerLogo {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  box-sizing: border-box;
+  margin-bottom: 2em;
+}
+
+.footerLogo img {
+  border: none;
+  max-width: 110px;
+}
+
+.footMinwon {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.footMinwon .callTxt b {
+  display: block;
+  font-weight: 600;
+}
+
+.footMinwon .callTxt i {
+  font-style: normal;
+}
+
+.footMinwon .callNum {
+  margin-left: 10px;
+  font-size: 2.5em;
+}
+
+.footMinwon .txt {
+  flex: 0 0 100%;
+  margin-top: 5px;
 }
